@@ -1,0 +1,17 @@
+{
+  "categories": [
+    { "id": "cat-pizza", "name": "Pizza" },
+    { "id": "cat-sides", "name": "Sides" },
+    { "id": "cat-drinks", "name": "Drinks" }
+  ],
+  "items": [
+    { "id": "item-1", "categoryId": "cat-pizza", "name": "Margherita", "price": 9.99, "costPrice": 4.2 },
+    { "id": "item-2", "categoryId": "cat-pizza", "name": "Pepperoni", "price": 11.49, "costPrice": 5.1 },
+    { "id": "item-3", "categoryId": "cat-pizza", "name": "BBQ Chicken", "price": 12.99, "costPrice": 6.0 },
+    { "id": "item-4", "categoryId": "cat-pizza", "name": "Veggie Supreme", "price": 11.99, "costPrice": 5.4 },
+    { "id": "item-5", "categoryId": "cat-sides", "name": "Garlic Bread", "price": 4.99, "costPrice": 1.6 },
+    { "id": "item-6", "categoryId": "cat-sides", "name": "Buffalo Wings", "price": 7.99, "costPrice": 3.5 },
+    { "id": "item-7", "categoryId": "cat-drinks", "name": "Soda", "price": 2.49, "costPrice": 0.6 },
+    { "id": "item-8", "categoryId": "cat-drinks", "name": "Iced Tea", "price": 2.99, "costPrice": 0.8 }
+  ]
+}

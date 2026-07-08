@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "mrpizza",
+    "slug": "mrpizza",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "scheme": "mrpizza",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/logo.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/logo.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ismail_mem42.mrpizza"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/logo.png",
+          "imageWidth": 180
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2097d906-18a5-4b78-8dc8-e181f9c78fbb"
+      }
+    }
+  }
+}
